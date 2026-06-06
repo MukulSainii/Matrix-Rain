@@ -21,7 +21,7 @@ javac --version
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/MatrixRainProject.git
+git clone https://github.com/MukulSainii/Matrix-Rain.git
 ```
 
 ### Navigate to the Project Directory
