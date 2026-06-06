@@ -51,10 +51,27 @@ You can modify the following settings by changing the constants in the source co
 
 - Rain speed
 - Character density
-- Window size
-- Font size
 - Color theme
+### Rain Speed
+Change the `DELAY` constant(smaller value = fast, larger value = slow).
 
+### Character Density
+Change the `WIDTH` constant. (Larger value = more rain columns, smaller value = fewer rain columns).
+
+### Character Set
+Modify the `chars` string in the `randomChar()` method to display different symbols.
+
+### Color Theme (ANSI escape codes)
+Modify the `HEAD_COLOR` and `TRAIL_COLOR` constants to change the appearance of the Matrix rain.
+- Black: `\033[30m`
+- Red: `\033[31m`
+- Green: `\033[32m`
+- Yellow: `\033[33m`
+- Blue: `\033[34m`
+- Magenta:`\033[35m`
+- Cyan: `\033[36m`
+- White: `\033[37m`
+- Bright White:	`\033[97m`
 
 ## License
 

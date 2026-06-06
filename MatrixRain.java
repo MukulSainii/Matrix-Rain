@@ -6,7 +6,8 @@ public class MatrixRain {
     private static final int WIDTH = 120;
     private static final int HEIGHT = 40;
     private static final int DELAY = 50;
-
+    private static final String HEAD_COLOR = "\033[97m";
+    private static final String TRAIL_COLOR = "\033[32m";
     public static void main(String[] args) throws Exception {
 
         Random random = new Random();
@@ -28,17 +29,17 @@ public class MatrixRain {
 
                 // Bright head
                 moveCursor(y, x + 1);
-                System.out.print("\033[97m" + randomChar(random));
+                System.out.print(HEAD_COLOR+ randomChar(random));
 
                 // Green trail
                 if (y > 1) {
                     moveCursor(y - 1, x + 1);
-                    System.out.print("\033[32m" + randomChar(random));
+                    System.out.print(TRAIL_COLOR + randomChar(random));
                 }
 
                 if (y > 2) {
                     moveCursor(y - 2, x + 1);
-                    System.out.print("\033[32m" + randomChar(random));
+                    System.out.print(TRAIL_COLOR + randomChar(random));
                 }
 
                 // Erase tail
