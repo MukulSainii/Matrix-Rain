@@ -1,6 +1,6 @@
 ## Preview
 
-![Matrix Rain Demo](demo.gif)
+![Matrix Rain Demo](demo.gif.mp4)
 
 # Matrix Rain (Java)
 
