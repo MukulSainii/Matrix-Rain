@@ -1,7 +1,6 @@
 ## Preview
 
-![Matrix Rain Demo](demo.gif.mp4)
-
+![Screenshot](rain.png)
 # Matrix Rain (Java)
 
 A Java implementation of the iconic Matrix digital rain effect.
