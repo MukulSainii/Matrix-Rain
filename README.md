@@ -17,7 +17,10 @@ javac --version
 ```
 
 ## Getting Started
-
+### Clone the Repository
+```bash
+create folder MatrixRainProject
+```
 ### Clone the Repository
 
 ```bash
